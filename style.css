@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cccccc;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid yellow;
+    background-color: #fff;
+}
+.logo img{
+    width: 200px;
+    padding-left: 20px;
+}
+.menu{
+    padding-top: 28px;
+    padding-right: 15px;
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.hero_container{
+    width: 100%;
+    height: 80vh;
+    background-image: url('/img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero_container h1{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hero_container p{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    transition: all .6s ease-in-out;
+}
+.btn:hover{
+    background: #fff;
+    color: red;
+}
+
+.stat_container h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', sans-serif;
+}
+
+.box_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.box p{
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.box2  p{
+    color: red;
+}
+.box3 p{
+    color: green;
+}
+
+
+
+/* #################################################################################### */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  .btn1{
+    text-decoration: none;
+    color: #8e44ad;
+    font-size: 22px;
+    margin-top: 20px;
+    border: 1px solid #8e44ad;
+    padding: 10px 30px;
+    transition: all .6s ease-in-out;
+}
+.btn1:hover{
+    background: #8e44ad;
+    color: white;
+}
+  
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
